@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import Judul from './Components/Judul';
 import {
   Platform,
   StyleSheet,
@@ -26,6 +27,7 @@ export default class App extends Component<Props> {
   render() {
     return (
   <View style={styles.container} >
+  <Judul/>
     <Text style={styles.welcome}>
      Nama = Agfid Danu Prasetyo 
     </Text>
