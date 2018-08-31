@@ -37,7 +37,7 @@ export default class App extends Component<Props> {
     </Text>
     <Image
       style={{width: 250, height: 250}}
-      source={{uri:'https://instagram.fsub2-1.fna.fbcdn.net/vp/ac0fdbe5769b4c4ccd72ab42a8468574/5C2F6E06/t51.2885-15/e35/31150158_2144364028912895_8751780818117984256_n.jpg'}}
+      source={require('./aa.jpg')}
       />
   </View>
 	
