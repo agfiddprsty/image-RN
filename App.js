@@ -27,7 +27,9 @@ export default class App extends Component<Props> {
   render() {
     return (
   <View style={styles.container} >
-  <Judul/>
+  <Judul judul ="BIODATA"/>
+  <Judul judul ="LOGIN"/>
+  <Judul judul ="FORM"/>
     <Text style={styles.welcome}>
      Nama = Agfid Danu Prasetyo 
     </Text>
