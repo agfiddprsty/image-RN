@@ -41,7 +41,7 @@ export default class App extends Component<Props> {
     </Text>
     <Image
       style={{width: 250, height: 250}}
-      source={require('./aa.jpg')}
+      source={require('./Images/aa.jpg')}
       />
   </View>
 	
